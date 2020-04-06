@@ -1,0 +1,16 @@
+2020-04-05 22:40:59.823 -03:00 [INF] Starting Amplifier web host
+2020-04-05 22:41:44.996 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:2000/  
+2020-04-05 22:41:45.669 -03:00 [INF] Request finished in 722.0384ms 307 
+2020-04-05 22:41:46.569 -03:00 [INF] Request starting HTTP/2 GET https://localhost:2001/  
+2020-04-05 22:41:46.741 -03:00 [INF] Request finished in 172.6695ms 404 
+2020-04-05 22:41:59.777 -03:00 [INF] Request starting HTTP/2 GET https://localhost:2001/  
+2020-04-05 22:41:59.780 -03:00 [INF] Request finished in 3.3695ms 404 
+2020-04-05 22:42:31.262 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:2000/  
+2020-04-05 22:42:31.286 -03:00 [INF] Request finished in 25.5816ms 307 
+2020-04-05 22:42:31.322 -03:00 [INF] Request starting HTTP/2 GET https://localhost:2001/  
+2020-04-05 22:42:31.380 -03:00 [INF] Request finished in 58.0456ms 404 
+2020-04-05 22:43:17.881 -03:00 [INF] Starting Amplifier web host
+2020-04-05 22:44:01.490 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:2000/  
+2020-04-05 22:44:01.563 -03:00 [INF] Request finished in 85.1855ms 404 
+2020-04-05 22:44:13.925 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:2000/  
+2020-04-05 22:44:13.928 -03:00 [INF] Request finished in 2.9098ms 404 
