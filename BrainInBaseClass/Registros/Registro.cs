@@ -1,11 +1,11 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
+﻿using BrainInBaseClass.Instituicaos;
+using BrainInBaseClass.Registros;
+using System;
 
 namespace BrainInBaseClass.Registro
 {
    public class Registro
-    {
+    { 
         public string Id { get; set; }
         public string Codigo { get; set; }
         public string Descricao { get; set; }
@@ -16,6 +16,8 @@ namespace BrainInBaseClass.Registro
         public DateTime DataConclusao { get; set; }
         public int Validade { get; set; }
         public string TipoRegistro { get; set; }
+        public Arquivo Arquivo { get; set; }
+        public Instituicao Instituicao{ get; set; }
 
     }
 }

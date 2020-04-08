@@ -1,8 +1,7 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
+﻿using BrainInBaseClass.Shared;
+using System;
 
-namespace BrainInBaseClass.Usuario
+namespace BrainInBaseClass.Usuarios
 {
     public class Usuario
     {
@@ -14,6 +13,7 @@ namespace BrainInBaseClass.Usuario
         public DateTime Nascimento { get; set; }
         public string Telefone { get; set; }
         public bool Ativo { get; set; }
-        
+        public Endereco Endereco { get; set; }
+
     }
 }
