@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace BrainInBaseClass.Instituicaos
+namespace BrainInBaseClass.Instituicoes
 {
     public class Instituicao
     {

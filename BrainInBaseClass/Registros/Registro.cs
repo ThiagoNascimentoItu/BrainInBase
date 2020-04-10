@@ -1,8 +1,7 @@
-﻿using BrainInBaseClass.Instituicaos;
-using BrainInBaseClass.Registros;
+﻿using BrainInBaseClass.Instituicoes;
 using System;
 
-namespace BrainInBaseClass.Registro
+namespace BrainInBaseClass.Registros
 {
    public class Registro
     { 

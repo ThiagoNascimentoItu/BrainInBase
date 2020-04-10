@@ -1,5 +1,5 @@
 ﻿
-namespace BrainInBaseClass.Instituicaos
+namespace BrainInBaseClass.Instituicoes
 {
     public class InstituicaoClient
     {
