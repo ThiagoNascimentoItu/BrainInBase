@@ -14,9 +14,7 @@ namespace BrainInBaseClass.Registros
         public DateTime? DataInicial { get; set; }
         public DateTime DataConclusao { get; set; }
         public int Validade { get; set; }
-        public string TipoRegistro { get; set; }
-        public Arquivo Arquivo { get; set; }
-        public Instituicao Instituicao{ get; set; }
+        public string TipoRegistro { get; set; }      
 
     }
 }

@@ -7,6 +7,7 @@ namespace BrainInBaseClass.Usuarios
         public string Codigo { get; set; }
         public string Nome { get; set; }
         public string Email { get; set; }
+        public string Termo { get; set; }
 
     }
 }
