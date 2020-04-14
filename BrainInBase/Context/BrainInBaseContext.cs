@@ -11,7 +11,6 @@ namespace BrainInBaseApi.Context
         public DbSet<UsuariosEntity> Usuarios { get; set; }
         public DbSet<EmissorEntity> Emissor { get; set; }
         public DbSet<RegistrosEntity> Registros { get; set; }
-        public DbSet<ArquivoEntity> Arquivo { get; set; }
         public DbSet<EnderecoEntity> Endereco { get; set; }
         public DbSet<ComprovantesEntity> Comprovantes { get; set; }
         public DbSet<RegistrosEmissorEntity> RegistrosEmissor { get; set; }
@@ -29,7 +28,6 @@ namespace BrainInBaseApi.Context
                 .Property(u => u.Codigo).Metadata.SetAfterSaveBehavior(PropertySaveBehavior.Ignore);
             modelBuilder.Entity<ComprovantesEntity>().ToTable("Comprovantes")
                .Property(u => u.Codigo).Metadata.SetAfterSaveBehavior(PropertySaveBehavior.Ignore);
-            modelBuilder.Entity<ArquivoEntity>().ToTable("Arquivo");
             modelBuilder.Entity<EnderecoEntity>().ToTable("Endereco");
             modelBuilder.Entity<RegistrosEmissorEntity>().ToTable("RegistrosEmissor");
             modelBuilder.Entity<UsuariosComprovantesEntity>().ToTable("UsuariosComprovantes");

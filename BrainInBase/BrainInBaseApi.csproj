@@ -18,8 +18,8 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\BrainInBase.Contracts\BrainInBaseContracts.csproj" />
-    <ProjectReference Include="..\BrainInBaseClass\BrainInBaseClass.csproj" />
+    <ProjectReference Include="..\BrainInBase.Contracts\BrainInBase.Contracts.csproj" />
+    <ProjectReference Include="..\BrainInBase.Query\BrainInBase.Query.csproj" />
   </ItemGroup>
 
 

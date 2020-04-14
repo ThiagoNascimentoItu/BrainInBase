@@ -25,6 +25,8 @@ namespace BrainInBaseApi.Context.BrainEntity
         public DateTime DataInclusao { get; set; }
         [Required( ErrorMessage = "O tipo do documento deve ser informado")]
         public char Tipo { get; set; }
+        [Required(ErrorMessage = "Selecione um aquivo")]
+        public byte[] Arquivo { get; set; }
 
     }
 }

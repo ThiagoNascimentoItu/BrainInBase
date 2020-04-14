@@ -28,6 +28,8 @@ namespace BrainInBaseApi.Context.BrainEntity
         public DateTime DataConclusao { get; set; }
         public int Validade { get; set; }
         public string TipoRegistro { get; set; }
+        [Required(ErrorMessage = "Selecione um aquivo")]
+        public byte[] Arquivo { get; set; }
 
     }
 }
