@@ -4,9 +4,4 @@
     <TargetFramework>netcoreapp3.1</TargetFramework>
   </PropertyGroup>
 
-  <ItemGroup>
-    <Folder Include="Models\Emissor\Filtro\" />
-    <Folder Include="Models\Registro\Filtro\" />
-  </ItemGroup>
-
 </Project>
