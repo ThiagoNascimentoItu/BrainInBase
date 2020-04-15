@@ -16,6 +16,6 @@ namespace BrainInBase.Contracts.Models.Registro
         public DateTime DataConclusao { get; set; }
         public int Validade { get; set; }
         public string TipoRegistro { get; set; }
-
+        public byte[] Arquivo { get; set; }
     }
 }
