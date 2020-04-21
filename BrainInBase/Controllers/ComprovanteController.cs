@@ -23,7 +23,7 @@ namespace BrainInBaseApi.Controllers
             _brainInBaseContext = brainInBaseContext ?? throw new ArgumentNullException(nameof(brainInBaseContext));
         }
 
-        [HttpGet]
+        [HttpPost]
         public async Task<IActionResult> GetComprovante([FromQuery] string comprovanteId)
         {
             var id = comprovanteId.Split("-");
@@ -43,7 +43,7 @@ namespace BrainInBaseApi.Controllers
             return Ok(result);
         }
 
-        [HttpGet("termo")]
+        [HttpPost("termo")]
         public async Task<IActionResult> FindComprovantes([FromQuery] string termo)
         {
             var comprovantes = _brainInBaseContext.Comprovantes.Where(c => c.Descricao.Contains(termo == null ? "" : termo));
@@ -60,7 +60,7 @@ namespace BrainInBaseApi.Controllers
             return Ok(result);
         }
         
-        [HttpPut]
+        [HttpPost("update")]
         public async Task<IActionResult> PutComprovante([FromQuery] Comprovante model)
         {
             var id = model.Codigo.Split("-");
@@ -82,7 +82,7 @@ namespace BrainInBaseApi.Controllers
             return Ok(model);
         }
 
-        [HttpPost]
+        [HttpPost("adicionar")]
         public async Task<IActionResult> PostComprovantes([FromBody] Comprovante model)
         {
             var id = model.Codigo.Split("-");

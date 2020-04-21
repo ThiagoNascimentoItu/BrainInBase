@@ -1,0 +1,17 @@
+2020-04-21 10:36:51.696 -03:00 [INF] Starting Amplifier web host
+2020-04-21 10:37:18.980 -03:00 [INF] User profile is available. Using 'C:\Users\Thiago_notAcer\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2020-04-21 10:38:54.036 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:2000/swagger  
+2020-04-21 10:38:54.263 -03:00 [INF] Request finished in 231.5723ms 301 
+2020-04-21 10:38:54.323 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:2000/swagger/index.html  
+2020-04-21 10:38:54.567 -03:00 [INF] Request finished in 244.1025ms 200 text/html;charset=utf-8
+2020-04-21 10:38:54.813 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:2000/swagger/swagger-ui-standalone-preset.js  
+2020-04-21 10:38:54.825 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:2000/swagger/swagger-ui-bundle.js  
+2020-04-21 10:38:54.831 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:2000/swagger/swagger-ui.css  
+2020-04-21 10:38:55.332 -03:00 [INF] Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+2020-04-21 10:38:55.351 -03:00 [INF] Request finished in 520.1503ms 200 text/css
+2020-04-21 10:38:55.362 -03:00 [INF] Sending file. Request path: '/swagger-ui-bundle.js'. Physical path: 'N/A'
+2020-04-21 10:38:55.364 -03:00 [INF] Sending file. Request path: '/swagger-ui-standalone-preset.js'. Physical path: 'N/A'
+2020-04-21 10:38:55.364 -03:00 [INF] Request finished in 538.9052ms 200 application/javascript
+2020-04-21 10:38:55.367 -03:00 [INF] Request finished in 554.066ms 200 application/javascript
+2020-04-21 10:38:55.674 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:2000/swagger/v1/swagger.json  
+2020-04-21 10:38:56.596 -03:00 [INF] Request finished in 922.9432ms 200 application/json;charset=utf-8

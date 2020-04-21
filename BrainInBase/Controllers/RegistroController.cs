@@ -23,7 +23,7 @@ namespace BrainInBaseApi.Controllers
             _brainInBaseContext = brainInBaseContext ?? throw new ArgumentNullException(nameof(brainInBaseContext));
         }
 
-        [HttpGet]
+        [HttpPost]
         public async Task<IActionResult> GetRegistros([FromQuery] string registroId)
         {
             var id = registroId.Split("-");
@@ -48,7 +48,7 @@ namespace BrainInBaseApi.Controllers
             return Ok(result);
         }
 
-        [HttpGet("termo")]
+        [HttpPost("termo")]
         public async Task<IActionResult> FindRegistros([FromQuery] string termo)
         {
             var registros = _brainInBaseContext.Registros.Where(r => r.Descricao.Contains(termo == null ? "" : termo));
@@ -70,7 +70,7 @@ namespace BrainInBaseApi.Controllers
             return Ok(result);
         }
 
-        [HttpPut]
+        [HttpPost("update")]
         public async Task<IActionResult> PutRegistros([FromQuery] Registro model)
         {
             var id = model.Codigo.Split("-");
@@ -97,7 +97,7 @@ namespace BrainInBaseApi.Controllers
             return Ok(model);
         }
 
-        [HttpPost]
+        [HttpPost("adicionar")]
         public async Task<IActionResult> PostRegistros([FromBody] Registro model)
         {
             var id = model.Codigo.Split("-");

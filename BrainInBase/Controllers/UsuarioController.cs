@@ -27,10 +27,10 @@ namespace BrainInBaseApi.Controllers
             _brainInBaseContext = brainInBaseContext ?? throw new ArgumentNullException(nameof(brainInBaseContext));
         }
 
-        [HttpGet]
-        public async Task<IActionResult> GetUsuarioByCodigo([FromQuery]UsuarioFiltro filtro)
+        [HttpPost]
+        public async Task<IActionResult> GetUsuarioByCodigo([FromQuery]string usuarioId)
         {
-            var id = filtro.Codigo.Split("-");
+            var id = usuarioId.Split("-");
 
             var usuario = _brainInBaseContext.Usuarios.Where(u => u.Padrao == Convert.ToInt32(id[0])
                                                               && u.Modificador == Convert.ToInt32(id[1])
@@ -50,12 +50,12 @@ namespace BrainInBaseApi.Controllers
 
             return Ok(result);
         }
-        [HttpGet("termo")]
-        public async Task<IActionResult> FindUsuarios([FromQuery] UsuarioFiltro filtro)
+        [HttpPost("termo")]
+        public async Task<IActionResult> FindUsuarios([FromQuery] string termo)
         {
 
-            var usuarios = _brainInBaseContext.Usuarios.Where(u => u.Nome.Contains(filtro.Termo == null ? "" : filtro.Termo)
-                                    || u.Email.Contains(filtro.Termo) && u.Ativo == true);
+            var usuarios = _brainInBaseContext.Usuarios.Where(u => u.Nome.Contains(termo == null ? "" : termo)
+                                    || u.Email.Contains(termo) && u.Ativo == true);
 
             var result = usuarios.Select(r => new Usuario
             {
@@ -71,7 +71,7 @@ namespace BrainInBaseApi.Controllers
 
         }
 
-        [HttpPut]
+        [HttpPost("update")]
         public async Task<IActionResult> PutUsuario([FromQuery] Usuario model)
         {
             var id = model.Codigo.Split("-");
@@ -98,7 +98,7 @@ namespace BrainInBaseApi.Controllers
             return Ok(usuario);
         }
        
-        [HttpPost]
+        [HttpPost("adicionar")]
         public async Task<IActionResult> PostUsuario([FromBody] Usuario model)
         {
 

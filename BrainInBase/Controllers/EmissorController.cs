@@ -24,7 +24,7 @@ namespace BrainInBaseApi.Controllers
             _brainInBaseContext = brainInBaseContext ?? throw new ArgumentNullException(nameof(brainInBaseContext));
         }
 
-        [HttpGet]
+        [HttpPost]
         public async Task<IActionResult> GetEmissor([FromQuery] string emissorId)
         {
             var id = emissorId.Split("-");
@@ -47,7 +47,7 @@ namespace BrainInBaseApi.Controllers
             return Ok(result);
         }
         
-        [HttpGet("termo")]
+        [HttpPost("termo")]
         public async Task<IActionResult> FindEmissor([FromQuery] string termo)
         {
             var emissor = _brainInBaseContext.Emissor.Where(e => e.RazaoSocial.Contains(termo == null ? "" : termo)
@@ -66,7 +66,7 @@ namespace BrainInBaseApi.Controllers
             return Ok(result);
         }
 
-        [HttpPut]
+        [HttpPost("update")]
         public async Task<IActionResult> PutEmissor([FromQuery] Emissor model)
         {
             var id = model.Codigo.Split("-");
@@ -90,7 +90,7 @@ namespace BrainInBaseApi.Controllers
             return Ok(model);
         }
 
-        [HttpPost]
+        [HttpPost("adicionar")]
         public async Task<IActionResult> PostEmissor([FromBody] Emissor model)
         {
             var id = model.Codigo.Split("-");
