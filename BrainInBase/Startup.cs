@@ -1,4 +1,5 @@
 using BrainInBaseApi.Context;
+using MediatR;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.EntityFrameworkCore;
@@ -32,6 +33,9 @@ namespace BrainInBaseApi
             {
                 options.UseSqlServer(Configuration.GetConnectionString("DefaultConnectionString"));
             });
+
+            var assembly = AppDomain.CurrentDomain.Load("BrainInBase.Query");
+            services.AddMediatR(assembly);
 
             // Para criar a documentação do swagger
             services.AddSwaggerGen(s =>

@@ -31,7 +31,7 @@ namespace BrainInBaseApi.Controllers
             var comprovante = _brainInBaseContext.Comprovantes.Where(r => r.Padrao == Convert.ToInt32(id[0]) && r.Modificador == Convert.ToInt32(id[1])
                                                               && r.Codigo == Convert.ToInt32(id[2]) && r.Identificador == id[3]);
 
-            var result = comprovante.Select(c =>  new Comprovante
+            var result = comprovante.Select(c =>  new ComprovanteModel
             {
                 Codigo = c.Padrao + "-" + c.Modificador + "-" + c.Codigo + "-" + c.Identificador,
                 Descricao = c.Descricao,
@@ -48,7 +48,7 @@ namespace BrainInBaseApi.Controllers
         {
             var comprovantes = _brainInBaseContext.Comprovantes.Where(c => c.Descricao.Contains(termo == null ? "" : termo));
 
-            var result = comprovantes.Select(c => new Comprovante
+            var result = comprovantes.Select(c => new ComprovanteModel
             {
                 Codigo = c.Padrao + "-" + c.Modificador + "-" + c.Codigo + "-" + c.Identificador,
                 Descricao = c.Descricao,
@@ -61,7 +61,7 @@ namespace BrainInBaseApi.Controllers
         }
         
         [HttpPost("update")]
-        public async Task<IActionResult> PutComprovante([FromQuery] Comprovante model)
+        public async Task<IActionResult> PutComprovante([FromQuery] ComprovanteModel model)
         {
             var id = model.Codigo.Split("-");
 
@@ -83,7 +83,7 @@ namespace BrainInBaseApi.Controllers
         }
 
         [HttpPost("adicionar")]
-        public async Task<IActionResult> PostComprovantes([FromBody] Comprovante model)
+        public async Task<IActionResult> PostComprovantes([FromBody] ComprovanteModel model)
         {
             var id = model.Codigo.Split("-");
 

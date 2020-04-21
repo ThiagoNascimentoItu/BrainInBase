@@ -32,14 +32,14 @@ namespace BrainInBase.Client.Client
         {
             return await _httpClientFactory.PostAsync<UsuarioResult>("api/usuario/termo", termo);
         }
-        public async Task<Usuario> PostUsuarioAsync(Usuario model)
+        public async Task<UsuarioModel> PostUsuarioAsync(UsuarioModel model)
         {
-            return await _httpClientFactory.PostAsync<Usuario>("api/usuario/adicionar", model);
+            return await _httpClientFactory.PostAsync<UsuarioModel>("api/usuario/adicionar", model);
         }
 
-        public async Task<Usuario> UpdateUsuarioAsync(Usuario model)
+        public async Task<UsuarioModel> UpdateUsuarioAsync(UsuarioModel model)
         {
-            return await _httpClientFactory.PostAsync<Usuario>("api/usuario/update", model);
+            return await _httpClientFactory.PostAsync<UsuarioModel>("api/usuario/update", model);
         }
         #endregion
 
@@ -52,13 +52,13 @@ namespace BrainInBase.Client.Client
         {
             return await _httpClientFactory.PostAsync<RegistroResult>("api/registro/termo", termo);
         }
-        public async Task<Registro> UpdateRegistroAsync(Registro model)
+        public async Task<RegistroModel> UpdateRegistroAsync(RegistroModel model)
         {
-            return await _httpClientFactory.PostAsync<Registro>("api/registro/update", model);
+            return await _httpClientFactory.PostAsync<RegistroModel>("api/registro/update", model);
         }
-        public async Task<Registro> PostRegistroAsync(Registro model)
+        public async Task<RegistroModel> PostRegistroAsync(RegistroModel model)
         {
-            return await _httpClientFactory.PostAsync<Registro>("api/registro/adicionar", model);
+            return await _httpClientFactory.PostAsync<RegistroModel>("api/registro/adicionar", model);
         }
         #endregion
 
@@ -71,13 +71,13 @@ namespace BrainInBase.Client.Client
         {
             return await _httpClientFactory.PostAsync<EmissorResult>("api/emissor/termo", termo);
         }
-        public async Task<Emissor> UpdateEmissorAsync(Emissor model)
+        public async Task<EmissorModel> UpdateEmissorAsync(EmissorModel model)
         {
-            return await _httpClientFactory.PostAsync<Emissor>("api/emissor/update", model);
+            return await _httpClientFactory.PostAsync<EmissorModel>("api/emissor/update", model);
         }
-        public async Task<Emissor> PostEmissorAsync(Emissor model)
+        public async Task<EmissorModel> PostEmissorAsync(EmissorModel model)
         {
-            return await _httpClientFactory.PostAsync<Emissor>("api/emissor/adicionar", model);
+            return await _httpClientFactory.PostAsync<EmissorModel>("api/emissor/adicionar", model);
         }
         #endregion
 
@@ -90,13 +90,13 @@ namespace BrainInBase.Client.Client
         {
             return await _httpClientFactory.PostAsync<ComprovanteResult>("api/comprovante/termo", termo);
         }
-        public async Task<Comprovante> UpdateComprovanteAsync(Comprovante model)
+        public async Task<ComprovanteModel> UpdateComprovanteAsync(ComprovanteModel model)
         {
-            return await _httpClientFactory.PostAsync<Comprovante>("api/comprovante/update", model);
+            return await _httpClientFactory.PostAsync<ComprovanteModel>("api/comprovante/update", model);
         }
-        public async Task<Comprovante> PostComprovanteAsync(Comprovante model)
+        public async Task<ComprovanteModel> PostComprovanteAsync(ComprovanteModel model)
         {
-            return await _httpClientFactory.PostAsync<Comprovante>("api/comprovante/adicionar", model);
+            return await _httpClientFactory.PostAsync<ComprovanteModel>("api/comprovante/adicionar", model);
         }
         #endregion
 

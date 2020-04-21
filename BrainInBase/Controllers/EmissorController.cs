@@ -34,7 +34,7 @@ namespace BrainInBaseApi.Controllers
                                                               && u.Codigo == Convert.ToInt32(id[2])
                                                               && u.Identificador == id[3]);
 
-            var result = emissor.Select(e => new Emissor
+            var result = emissor.Select(e => new EmissorModel
             {
                 Codigo = e.Padrao + "-" + e.Modificador + "-" + e.Codigo + "-" + e.Identificador,
                 Ativo = e.Ativo,
@@ -53,7 +53,7 @@ namespace BrainInBaseApi.Controllers
             var emissor = _brainInBaseContext.Emissor.Where(e => e.RazaoSocial.Contains(termo == null ? "" : termo)
                                                                  || e.NomeFantasia.Contains(termo));
 
-            var result = emissor.Select(e => new Emissor
+            var result = emissor.Select(e => new EmissorModel
             {
                 Codigo = e.Padrao + "-" + e.Modificador + "-" + e.Codigo + "-" + e.Identificador,
                 Ativo = e.Ativo,
@@ -67,7 +67,7 @@ namespace BrainInBaseApi.Controllers
         }
 
         [HttpPost("update")]
-        public async Task<IActionResult> PutEmissor([FromQuery] Emissor model)
+        public async Task<IActionResult> PutEmissor([FromQuery] EmissorModel model)
         {
             var id = model.Codigo.Split("-");
 
@@ -91,7 +91,7 @@ namespace BrainInBaseApi.Controllers
         }
 
         [HttpPost("adicionar")]
-        public async Task<IActionResult> PostEmissor([FromBody] Emissor model)
+        public async Task<IActionResult> PostEmissor([FromBody] EmissorModel model)
         {
             var id = model.Codigo.Split("-");
 

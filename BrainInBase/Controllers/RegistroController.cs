@@ -31,7 +31,7 @@ namespace BrainInBaseApi.Controllers
             var registro = _brainInBaseContext.Registros.Where(r => r.Padrao == Convert.ToInt32(id[0]) && r.Modificador == Convert.ToInt32(id[1])
                                                                 && r.Codigo == Convert.ToInt32(id[2]) && r.Identificador == id[3]);
 
-            var result = registro.Select(s => new Registro
+            var result = registro.Select(s => new RegistroModel
             {
                 Codigo = s.Padrao + "-" + s.Modificador + "-" + s.Codigo + "-" + s.Identificador,
                 Descricao = s.Descricao,
@@ -53,7 +53,7 @@ namespace BrainInBaseApi.Controllers
         {
             var registros = _brainInBaseContext.Registros.Where(r => r.Descricao.Contains(termo == null ? "" : termo));
 
-            var result = registros.Select(s => new Registro
+            var result = registros.Select(s => new RegistroModel
             {
                 Codigo = s.Padrao + "-" + s.Modificador + "-" + s.Codigo + "-" + s.Identificador,
                 Descricao = s.Descricao,
@@ -71,7 +71,7 @@ namespace BrainInBaseApi.Controllers
         }
 
         [HttpPost("update")]
-        public async Task<IActionResult> PutRegistros([FromQuery] Registro model)
+        public async Task<IActionResult> PutRegistros([FromQuery] RegistroModel model)
         {
             var id = model.Codigo.Split("-");
 
@@ -98,7 +98,7 @@ namespace BrainInBaseApi.Controllers
         }
 
         [HttpPost("adicionar")]
-        public async Task<IActionResult> PostRegistros([FromBody] Registro model)
+        public async Task<IActionResult> PostRegistros([FromBody] RegistroModel model)
         {
             var id = model.Codigo.Split("-");
 

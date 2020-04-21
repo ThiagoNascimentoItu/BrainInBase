@@ -37,7 +37,7 @@ namespace BrainInBaseApi.Controllers
                                                               && u.Codigo == Convert.ToInt32(id[2])
                                                               && u.Identificador == id[3]);
 
-            var result = usuario.Select(r => new Usuario
+            var result = usuario.Select(r => new UsuarioModel
             {
                 Codigo = r.Padrao + "-" + r.Modificador + "-" + r.Codigo + "-" + r.Identificador,
                 Nome = r.Nome,
@@ -57,7 +57,7 @@ namespace BrainInBaseApi.Controllers
             var usuarios = _brainInBaseContext.Usuarios.Where(u => u.Nome.Contains(termo == null ? "" : termo)
                                     || u.Email.Contains(termo) && u.Ativo == true);
 
-            var result = usuarios.Select(r => new Usuario
+            var result = usuarios.Select(r => new UsuarioModel
             {
                 Codigo = r.Padrao + "-" + r.Modificador + "-" + r.Codigo + "-" + r.Identificador,
                 Nome = r.Nome,
@@ -72,7 +72,7 @@ namespace BrainInBaseApi.Controllers
         }
 
         [HttpPost("update")]
-        public async Task<IActionResult> PutUsuario([FromQuery] Usuario model)
+        public async Task<IActionResult> PutUsuario([FromQuery] UsuarioModel model)
         {
             var id = model.Codigo.Split("-");
 
@@ -99,7 +99,7 @@ namespace BrainInBaseApi.Controllers
         }
        
         [HttpPost("adicionar")]
-        public async Task<IActionResult> PostUsuario([FromBody] Usuario model)
+        public async Task<IActionResult> PostUsuario([FromBody] UsuarioModel model)
         {
 
             var id = model.Codigo.Split("-");
