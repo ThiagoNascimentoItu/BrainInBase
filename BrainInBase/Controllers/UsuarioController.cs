@@ -6,7 +6,6 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using BrainInBase.Contracts.Models.Usuario;
-using BrainInBase.Contracts.Models.Usuario.Filtro;
 using BrainInBaseApi.Context;
 using BrainInBaseApi.Context.BrainEntity;
 using Microsoft.AspNetCore.Mvc;
@@ -27,7 +26,7 @@ namespace BrainInBaseApi.Controllers
             _brainInBaseContext = brainInBaseContext ?? throw new ArgumentNullException(nameof(brainInBaseContext));
         }
 
-        [HttpPost]
+        [HttpGet]
         public async Task<IActionResult> GetUsuarioByCodigo([FromQuery]string usuarioId)
         {
             var id = usuarioId.Split("-");
@@ -50,7 +49,7 @@ namespace BrainInBaseApi.Controllers
 
             return Ok(result);
         }
-        [HttpPost("termo")]
+        [HttpGet("termo")]
         public async Task<IActionResult> FindUsuarios([FromQuery] string termo)
         {
 
@@ -71,7 +70,7 @@ namespace BrainInBaseApi.Controllers
 
         }
 
-        [HttpPost("update")]
+        [HttpPut("update")]
         public async Task<IActionResult> PutUsuario([FromQuery] UsuarioModel model)
         {
             var id = model.Codigo.Split("-");
