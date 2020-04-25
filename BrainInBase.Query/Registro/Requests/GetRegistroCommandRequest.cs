@@ -7,7 +7,7 @@ using System.Text;
 
 namespace BrainInBase.Query.Registro.Requests
 {
-    public class GetRegistroRequest: RegistroFilter, IRequest<GetRegistroHandler>
+    public class GetRegistroCommandRequest: RegistroFilter, IRequest<GetRegistroHandler>
     {
     }
 }

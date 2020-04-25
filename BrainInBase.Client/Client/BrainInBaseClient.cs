@@ -2,13 +2,9 @@
 using BrainInBase.Contracts.Models.Comprovante;
 using BrainInBase.Contracts.Models.Emissor;
 using BrainInBase.Contracts.Models.Registro;
-using BrainInBase.Contracts.Models.Registro.Filtro;
 using BrainInBase.Contracts.Models.Usuario;
-using BrainInBase.Contracts.Models.Usuario.Filtro;
 using System;
-using System.Collections.Generic;
 using System.Net.Http;
-using System.Text;
 using System.Threading.Tasks;
 
 namespace BrainInBase.Client.Client

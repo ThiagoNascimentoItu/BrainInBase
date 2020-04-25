@@ -7,7 +7,7 @@ using System.Text;
 
 namespace BrainInBase.Query.Usuario.Requests
 {
-    public class FindUsuarioRequest: UsuarioFilter, IRequest<List<FindUsuarioHandler>>
+    public class FindUsuarioCommandRequest: UsuarioFilter, IRequest<List<FindUsuarioHandler>>
     {
     }
 }

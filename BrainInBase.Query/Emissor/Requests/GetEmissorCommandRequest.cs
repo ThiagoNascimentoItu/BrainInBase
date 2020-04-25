@@ -7,7 +7,7 @@ using System.Text;
 
 namespace BrainInBase.Query.Emissor.Requests
 {
-    public class GetEmissorRequest : EmissorFilter, IRequest<GetEmissorHandler>
+    public class GetEmissorCommandRequest : EmissorFilter, IRequest<GetEmissorHandler>
     {
     }
 }

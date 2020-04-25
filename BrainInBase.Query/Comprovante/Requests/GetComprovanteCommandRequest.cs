@@ -7,7 +7,7 @@ using System.Text;
 
 namespace BrainInBase.Query.Comprovante.Requests
 {
-    public class GetComprovanteRequest:ComprovanteFilter, IRequest<GetComprovanteHandler>
+    public class GetComprovanteCommandRequest:ComprovanteFilter, IRequest<GetComprovanteHandler>
     {
     }
 }
