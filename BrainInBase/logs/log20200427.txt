@@ -1,0 +1,6 @@
+2020-04-27 14:24:53.742 -03:00 [INF] Starting Amplifier web host
+2020-04-27 14:25:00.680 -03:00 [INF] User profile is available. Using 'C:\Users\Thiago_notAcer\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2020-04-27 14:26:40.798 -03:00 [INF] Starting Amplifier web host
+2020-04-27 14:26:51.453 -03:00 [INF] User profile is available. Using 'C:\Users\Thiago_notAcer\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2020-04-27 16:35:26.964 -03:00 [INF] Starting Amplifier web host
+2020-04-27 16:35:48.736 -03:00 [INF] User profile is available. Using 'C:\Users\Thiago_notAcer\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.

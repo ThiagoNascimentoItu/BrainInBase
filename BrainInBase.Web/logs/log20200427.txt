@@ -1,0 +1,455 @@
+2020-04-27 14:25:21.243 -03:00 [INF] Starting Amplifier web host
+2020-04-27 14:25:32.617 -03:00 [INF] Starting @angular/cli on port 57233...
+2020-04-27 14:25:36.038 -03:00 [INF] User profile is available. Using 'C:\Users\Thiago_notAcer\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2020-04-27 14:25:37.504 -03:00 [INF] Request starting HTTP/2.0 GET https://localhost:44306/  
+2020-04-27 14:26:46.391 -03:00 [INF] Starting Amplifier web host
+2020-04-27 14:26:50.507 -03:00 [INF] Starting @angular/cli on port 57282...
+2020-04-27 14:26:50.892 -03:00 [INF] User profile is available. Using 'C:\Users\Thiago_notAcer\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2020-04-27 14:26:51.241 -03:00 [INF] Request starting HTTP/2.0 GET https://localhost:44306/  
+2020-04-27 14:27:54.244 -03:00 [INF] > braininbase.web@0.0.0 start D:\Projetos\BrainInBase\BrainInBase\BrainInBase.Web\ClientApp
+> ng serve "--port" "57282"
+
+i ´¢ówds´¢ú: Project is running at http://localhost:57282/webpack-dev-server/
+
+2020-04-27 14:28:10.433 -03:00 [INF] i ´¢ówds´¢ú: webpack output is served from /
+i ´¢ówds´¢ú: 404s will fallback to //index.html
+
+
+2020-04-27 14:28:10.438 -03:00 [INF] chunk {main} main.js, main.js.map (main) 14.9 kB [initial] [rendered]
+chunk {polyfills} polyfills.js, polyfills.js.map (polyfills) 256 kB [initial] [rendered]
+chunk {runtime} runtime.js, runtime.js.map (runtime) 6.15 kB [entry] [rendered]
+chunk {styles} styles.css, styles.css.map (styles) 156 kB [initial] [rendered]
+chunk {vendor} vendor.js, vendor.js.map (vendor) 4.45 MB [initial] [rendered]
+Date: 2020-04-27T17:28:10.405Z - Hash: 10eea08eae4d9bd0e99c - Time: 34876ms
+
+2020-04-27 14:28:10.850 -03:00 [INF] ** Angular Live Development Server is listening on localhost:57282, open your browser on http://localhost:57282/ **
+i ´¢ówdm´¢ú: Compiled successfully.
+
+2020-04-27 14:28:18.315 -03:00 [INF] Request finished in 87081.1574ms 200 text/html; charset=UTF-8
+2020-04-27 14:28:18.647 -03:00 [INF] Request starting HTTP/2.0 GET https://localhost:44306/runtime.js  
+2020-04-27 14:28:18.647 -03:00 [INF] Request starting HTTP/2.0 GET https://localhost:44306/styles.css  
+2020-04-27 14:28:18.684 -03:00 [INF] Request starting HTTP/2.0 GET https://localhost:44306/polyfills.js  
+2020-04-27 14:28:18.921 -03:00 [INF] Request starting HTTP/2.0 GET https://localhost:44306/main.js  
+2020-04-27 14:28:18.923 -03:00 [INF] Request starting HTTP/2.0 GET https://localhost:44306/vendor.js  
+2020-04-27 14:28:20.005 -03:00 [INF] Request finished in 1081.9184ms 200 application/javascript; charset=UTF-8
+2020-04-27 14:28:20.031 -03:00 [INF] Request finished in 1382.2949ms 200 text/css; charset=UTF-8
+2020-04-27 14:28:20.682 -03:00 [INF] Request finished in 1998.0528ms 304 
+2020-04-27 14:28:20.685 -03:00 [INF] Request finished in 1762.795ms 304 
+2020-04-27 14:28:20.685 -03:00 [INF] Request finished in 2039.5223ms 304 
+2020-04-27 14:28:22.304 -03:00 [INF] Request starting HTTP/2.0 GET https://localhost:44306/sockjs-node/info?t=1588008502184  
+2020-04-27 14:28:23.354 -03:00 [INF] Request finished in 1050.0637ms 200 application/json; charset=UTF-8
+2020-04-27 14:28:23.376 -03:00 [INF] Request starting HTTP/1.1 GET https://localhost:44306/sockjs-node/310/ulldrqzv/websocket  
+2020-04-27 16:35:39.802 -03:00 [INF] Starting Amplifier web host
+2020-04-27 16:35:47.269 -03:00 [INF] Starting @angular/cli on port 59829...
+2020-04-27 16:35:49.037 -03:00 [INF] User profile is available. Using 'C:\Users\Thiago_notAcer\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2020-04-27 16:35:50.426 -03:00 [INF] Request starting HTTP/2.0 GET https://localhost:44306/  
+2020-04-27 16:36:13.663 -03:00 [INF] > braininbase.web@0.0.0 start D:\Projetos\BrainInBase\BrainInBase\BrainInBase.Web\ClientApp
+> ng serve "--port" "59829"
+
+i ´¢ówds´¢ú: Project is running at http://localhost:59829/webpack-dev-server/
+
+2020-04-27 16:36:29.590 -03:00 [INF] i ´¢ówds´¢ú: webpack output is served from /
+i ´¢ówds´¢ú: 404s will fallback to //index.html
+
+
+2020-04-27 16:36:29.646 -03:00 [INF] chunk {main} main.js, main.js.map (main) 15 kB [initial] [rendered]
+chunk {polyfills} polyfills.js, polyfills.js.map (polyfills) 283 kB [initial] [rendered]
+chunk {runtime} runtime.js, runtime.js.map (runtime) 6.15 kB [entry] [rendered]
+chunk {scripts} scripts.js, scripts.js.map (scripts) 1.2 MB [entry] [rendered]
+chunk {styles} styles.css, styles.css.map (styles) 199 kB [initial] [rendered]
+chunk {vendor} vendor.js, vendor.js.map (vendor) 4.45 MB [initial] [rendered]
+Date: 2020-04-27T19:36:29.578Z - Hash: 9b0b192d535fbcef51a9 - Time: 21243ms
+
+2020-04-27 16:36:29.663 -03:00 [INF] ** Angular Live Development Server is listening on localhost:59829, open your browser on http://localhost:59829/ **
+i ´¢ówdm´¢ú: Compiled successfully.
+
+2020-04-27 16:36:34.620 -03:00 [INF] Request finished in 44130.379ms 200 text/html; charset=UTF-8
+2020-04-27 16:36:35.125 -03:00 [INF] Request starting HTTP/2.0 GET https://localhost:44306/styles.css  
+2020-04-27 16:36:35.125 -03:00 [INF] Request starting HTTP/2.0 GET https://localhost:44306/polyfills.js  
+2020-04-27 16:36:35.125 -03:00 [INF] Request starting HTTP/2.0 GET https://localhost:44306/runtime.js  
+2020-04-27 16:36:35.332 -03:00 [INF] Request starting HTTP/2.0 GET https://localhost:44306/vendor.js  
+2020-04-27 16:36:35.336 -03:00 [INF] Request starting HTTP/2.0 GET https://localhost:44306/scripts.js  
+2020-04-27 16:36:35.336 -03:00 [INF] Request starting HTTP/2.0 GET https://localhost:44306/main.js  
+2020-04-27 16:36:36.404 -03:00 [INF] Request finished in 1068.5857ms 200 application/javascript; charset=UTF-8
+2020-04-27 16:36:36.477 -03:00 [INF] Request finished in 1361.9443ms 200 text/css; charset=UTF-8
+2020-04-27 16:36:36.477 -03:00 [INF] Request finished in 1352.9875ms 200 application/javascript; charset=UTF-8
+2020-04-27 16:36:36.493 -03:00 [INF] Request finished in 1367.7692ms 304 
+2020-04-27 16:36:36.495 -03:00 [INF] Request finished in 1159.1605ms 200 application/javascript; charset=UTF-8
+2020-04-27 16:36:36.496 -03:00 [INF] Request starting HTTP/2.0 GET https://localhost:44306/main.js.map  
+2020-04-27 16:36:36.668 -03:00 [INF] Request finished in 1336.6557ms 200 application/javascript; charset=UTF-8
+2020-04-27 16:36:37.072 -03:00 [INF] Request starting HTTP/2.0 GET https://localhost:44306/styles.css.map  
+2020-04-27 16:36:37.298 -03:00 [INF] Request starting HTTP/2.0 GET https://localhost:44306/polyfills.js.map  
+2020-04-27 16:36:37.356 -03:00 [INF] Request starting HTTP/2.0 GET https://localhost:44306/vendor.js.map  
+2020-04-27 16:36:37.356 -03:00 [INF] Request starting HTTP/2.0 GET https://localhost:44306/runtime.js.map  
+2020-04-27 16:36:37.516 -03:00 [INF] Request finished in 1019.9366ms 200 application/json; charset=UTF-8
+2020-04-27 16:36:38.125 -03:00 [INF] Request finished in 1053.235ms 200 application/json; charset=UTF-8
+2020-04-27 16:36:38.195 -03:00 [INF] Request starting HTTP/2.0 GET https://localhost:44306/scripts.js.map  
+2020-04-27 16:36:38.231 -03:00 [INF] Request starting HTTP/2.0 GET https://localhost:44306/sockjs-node/info?t=1588016198216  
+2020-04-27 16:36:38.340 -03:00 [INF] Request finished in 1042.0681ms 200 application/json; charset=UTF-8
+2020-04-27 16:36:38.477 -03:00 [INF] Request finished in 1121.1778ms 200 application/json; charset=UTF-8
+2020-04-27 16:36:38.640 -03:00 [INF] Request finished in 1284.0665ms 200 application/json; charset=UTF-8
+2020-04-27 16:36:39.253 -03:00 [INF] Request finished in 1057.9504ms 200 application/json; charset=UTF-8
+2020-04-27 16:36:39.292 -03:00 [INF] Request finished in 1061.4274ms 200 application/json; charset=UTF-8
+2020-04-27 16:36:39.331 -03:00 [INF] Request starting HTTP/1.1 GET https://localhost:44306/sockjs-node/207/kd5zh5lr/websocket  
+2020-04-27 16:37:14.233 -03:00 [INF] i ´¢ówdm´¢ú: Compiling...
+
+2020-04-27 16:37:15.636 -03:00 [INF] Date: 2020-04-27T19:37:15.634Z - Hash: ebe393d361251b3ae6c3
+4 unchanged chunks
+chunk {main} main.js, main.js.map (main) 32.7 kB [initial] [rendered]
+chunk {styles} styles.css, styles.css.map (styles) 199 kB [initial] [rendered]
+Time: 1036ms
+
+2020-04-27 16:37:15.663 -03:00 [INF] i ´¢ówdm´¢ú: Compiled successfully.
+
+2020-04-27 16:37:15.746 -03:00 [INF] Request starting HTTP/2.0 GET https://localhost:44306/  
+2020-04-27 16:37:16.956 -03:00 [INF] Request finished in 1210.5168ms 304 
+2020-04-27 16:37:17.054 -03:00 [INF] Request starting HTTP/2.0 GET https://localhost:44306/runtime.js  
+2020-04-27 16:37:17.061 -03:00 [INF] Request starting HTTP/2.0 GET https://localhost:44306/polyfills.js  
+2020-04-27 16:37:17.177 -03:00 [INF] Request finished in 37846.8228ms 101 
+2020-04-27 16:37:17.177 -03:00 [INF] Request starting HTTP/2.0 GET https://localhost:44306/vendor.js  
+2020-04-27 16:37:17.187 -03:00 [INF] Request starting HTTP/2.0 GET https://localhost:44306/main.js  
+2020-04-27 16:37:17.192 -03:00 [INF] Request starting HTTP/2.0 GET https://localhost:44306/styles.css  
+2020-04-27 16:37:17.196 -03:00 [INF] Request starting HTTP/2.0 GET https://localhost:44306/scripts.js  
+2020-04-27 16:37:18.298 -03:00 [INF] Request starting HTTP/2.0 GET https://localhost:44306/runtime.js.map  
+2020-04-27 16:37:18.298 -03:00 [INF] Request finished in 1148.8627ms 304 
+2020-04-27 16:37:18.299 -03:00 [INF] Request finished in 1238.1609ms 304 
+2020-04-27 16:37:18.314 -03:00 [INF] Request finished in 1136.6774ms 304 
+2020-04-27 16:37:18.314 -03:00 [INF] Request finished in 1122.5073ms 304 
+2020-04-27 16:37:18.338 -03:00 [INF] Request finished in 1150.7873ms 200 application/javascript; charset=UTF-8
+2020-04-27 16:37:18.365 -03:00 [INF] Request finished in 1168.7001ms 304 
+2020-04-27 16:37:18.368 -03:00 [INF] Request starting HTTP/2.0 GET https://localhost:44306/polyfills.js.map  
+2020-04-27 16:37:18.536 -03:00 [INF] Request starting HTTP/2.0 GET https://localhost:44306/scripts.js.map  
+2020-04-27 16:37:18.573 -03:00 [INF] Request starting HTTP/2.0 GET https://localhost:44306/styles.css.map  
+2020-04-27 16:37:18.883 -03:00 [INF] Request starting HTTP/2.0 GET https://localhost:44306/vendor.js.map  
+2020-04-27 16:37:18.898 -03:00 [INF] Request starting HTTP/2.0 GET https://localhost:44306/main.js.map  
+2020-04-27 16:37:19.143 -03:00 [INF] Request starting HTTP/2.0 GET https://localhost:44306/sockjs-node/info?t=1588016239124  
+2020-04-27 16:37:19.372 -03:00 [INF] Request finished in 1073.8941ms 304 
+2020-04-27 16:37:19.462 -03:00 [INF] Request finished in 1093.4318ms 304 
+2020-04-27 16:37:19.548 -03:00 [INF] Request finished in 1012.466ms 304 
+2020-04-27 16:37:19.587 -03:00 [INF] Request finished in 1014.2528ms 304 
+2020-04-27 16:37:19.908 -03:00 [INF] Request finished in 1024.6908ms 304 
+2020-04-27 16:37:19.946 -03:00 [INF] Request finished in 1048.4232ms 200 application/json; charset=UTF-8
+2020-04-27 16:37:20.156 -03:00 [INF] Request finished in 1013.1301ms 200 application/json; charset=UTF-8
+2020-04-27 16:37:20.220 -03:00 [INF] Request starting HTTP/1.1 GET https://localhost:44306/sockjs-node/350/ygckedlf/websocket  
+2020-04-27 16:37:25.047 -03:00 [INF] i ´¢ówdm´¢ú: Compiling...
+
+2020-04-27 16:37:25.579 -03:00 [INF] Date: 2020-04-27T19:37:25.578Z - Hash: ebe393d361251b3ae6c3
+6 unchanged chunks
+
+Time: 250ms
+
+2020-04-27 16:37:25.590 -03:00 [INF] i ´¢ówdm´¢ú: Compiled successfully.
+
+2020-04-27 16:37:25.729 -03:00 [INF] Request starting HTTP/2.0 GET https://localhost:44306/  
+2020-04-27 16:37:26.743 -03:00 [INF] Request finished in 1014.0434ms 304 
+2020-04-27 16:37:26.774 -03:00 [INF] Request finished in 6554.0045ms 101 
+2020-04-27 16:37:26.898 -03:00 [INF] Request starting HTTP/2.0 GET https://localhost:44306/styles.css  
+2020-04-27 16:37:26.898 -03:00 [INF] Request starting HTTP/2.0 GET https://localhost:44306/runtime.js  
+2020-04-27 16:37:26.899 -03:00 [INF] Request starting HTTP/2.0 GET https://localhost:44306/polyfills.js  
+2020-04-27 16:37:26.900 -03:00 [INF] Request starting HTTP/2.0 GET https://localhost:44306/vendor.js  
+2020-04-27 16:37:26.944 -03:00 [INF] Request starting HTTP/2.0 GET https://localhost:44306/scripts.js  
+2020-04-27 16:37:26.947 -03:00 [INF] Request starting HTTP/2.0 GET https://localhost:44306/main.js  
+2020-04-27 16:37:27.961 -03:00 [INF] Request finished in 1062.331ms 304 
+2020-04-27 16:37:27.971 -03:00 [INF] Request finished in 1014.2666ms 304 
+2020-04-27 16:37:27.975 -03:00 [INF] Request finished in 1075.3745ms 304 
+2020-04-27 16:37:27.977 -03:00 [INF] Request finished in 1078.4723ms 304 
+2020-04-27 16:37:27.978 -03:00 [INF] Request finished in 1080.0128ms 304 
+2020-04-27 16:37:27.982 -03:00 [INF] Request finished in 1037.7715ms 304 
+2020-04-27 16:37:27.998 -03:00 [INF] Request starting HTTP/2.0 GET https://localhost:44306/main.js.map  
+2020-04-27 16:37:28.017 -03:00 [INF] Request starting HTTP/2.0 GET https://localhost:44306/runtime.js.map  
+2020-04-27 16:37:28.017 -03:00 [INF] Request starting HTTP/2.0 GET https://localhost:44306/polyfills.js.map  
+2020-04-27 16:37:28.119 -03:00 [INF] Request starting HTTP/2.0 GET https://localhost:44306/scripts.js.map  
+2020-04-27 16:37:28.155 -03:00 [INF] Request starting HTTP/2.0 GET https://localhost:44306/styles.css.map  
+2020-04-27 16:37:28.402 -03:00 [INF] Request starting HTTP/2.0 GET https://localhost:44306/vendor.js.map  
+2020-04-27 16:37:28.657 -03:00 [INF] Request starting HTTP/2.0 GET https://localhost:44306/sockjs-node/info?t=1588016248647  
+2020-04-27 16:37:29.013 -03:00 [INF] Request finished in 1015.0748ms 304 
+2020-04-27 16:37:29.038 -03:00 [INF] Request finished in 1020.9511ms 304 
+2020-04-27 16:37:29.040 -03:00 [INF] Request finished in 1022.1409ms 304 
+2020-04-27 16:37:29.151 -03:00 [INF] Request finished in 1032.0342ms 304 
+2020-04-27 16:37:29.173 -03:00 [INF] Request finished in 1018.0387ms 304 
+2020-04-27 16:37:29.452 -03:00 [INF] Request finished in 1049.0053ms 304 
+2020-04-27 16:37:29.669 -03:00 [INF] Request finished in 1012.0658ms 200 application/json; charset=UTF-8
+2020-04-27 16:37:29.681 -03:00 [INF] Request starting HTTP/1.1 GET https://localhost:44306/sockjs-node/041/3vbcktza/websocket  
+2020-04-27 16:47:28.953 -03:00 [INF] Request starting HTTP/2.0 GET https://localhost:44306/  
+2020-04-27 16:47:29.968 -03:00 [INF] Request finished in 1015.2518ms 304 
+2020-04-27 16:47:30.064 -03:00 [INF] Request starting HTTP/2.0 GET https://localhost:44306/styles.css  
+2020-04-27 16:47:30.074 -03:00 [INF] Request starting HTTP/2.0 GET https://localhost:44306/runtime.js  
+2020-04-27 16:47:30.075 -03:00 [INF] Request finished in 600393.6782ms 101 
+2020-04-27 16:47:30.081 -03:00 [INF] Request starting HTTP/2.0 GET https://localhost:44306/polyfills.js  
+2020-04-27 16:47:30.086 -03:00 [INF] Request starting HTTP/2.0 GET https://localhost:44306/main.js  
+2020-04-27 16:47:30.087 -03:00 [INF] Request starting HTTP/2.0 GET https://localhost:44306/vendor.js  
+2020-04-27 16:47:30.155 -03:00 [INF] Request starting HTTP/2.0 GET https://localhost:44306/scripts.js  
+2020-04-27 16:47:31.129 -03:00 [INF] Request finished in 1047.4309ms 304 
+2020-04-27 16:47:31.129 -03:00 [INF] Request finished in 1064.5054ms 304 
+2020-04-27 16:47:31.129 -03:00 [INF] Request finished in 1042.1897ms 304 
+2020-04-27 16:47:31.130 -03:00 [INF] Request finished in 1055.727ms 304 
+2020-04-27 16:47:31.143 -03:00 [INF] Request finished in 1056.3616ms 304 
+2020-04-27 16:47:31.169 -03:00 [INF] Request finished in 1014.0831ms 304 
+2020-04-27 16:47:31.171 -03:00 [INF] Request starting HTTP/2.0 GET https://localhost:44306/main.js.map  
+2020-04-27 16:47:31.181 -03:00 [INF] Request starting HTTP/2.0 GET https://localhost:44306/runtime.js.map  
+2020-04-27 16:47:31.222 -03:00 [INF] Request starting HTTP/2.0 GET https://localhost:44306/styles.css.map  
+2020-04-27 16:47:31.252 -03:00 [INF] Request starting HTTP/2.0 GET https://localhost:44306/polyfills.js.map  
+2020-04-27 16:47:31.357 -03:00 [INF] Request starting HTTP/2.0 GET https://localhost:44306/scripts.js.map  
+2020-04-27 16:47:31.585 -03:00 [INF] Request starting HTTP/2.0 GET https://localhost:44306/vendor.js.map  
+2020-04-27 16:47:31.737 -03:00 [INF] Request starting HTTP/2.0 GET https://localhost:44306/sockjs-node/info?t=1588016851725  
+2020-04-27 16:47:31.747 -03:00 [INF] Request starting HTTP/2.0 GET https://localhost:44306/favicon.ico  
+2020-04-27 16:47:32.092 -03:00 [INF] Sending file. Request path: '/favicon.ico'. Physical path: 'D:\Projetos\BrainInBase\BrainInBase\BrainInBase.Web\wwwroot\favicon.ico'
+2020-04-27 16:47:32.093 -03:00 [INF] Request finished in 345.9037ms 200 image/x-icon
+2020-04-27 16:47:32.227 -03:00 [INF] Request finished in 1034.1464ms 304 
+2020-04-27 16:47:32.230 -03:00 [INF] Request finished in 1049.0163ms 304 
+2020-04-27 16:47:32.249 -03:00 [INF] Request finished in 1026.6029ms 304 
+2020-04-27 16:47:32.267 -03:00 [INF] Request finished in 1014.5268ms 304 
+2020-04-27 16:47:32.367 -03:00 [INF] Request finished in 1009.9797ms 304 
+2020-04-27 16:47:32.610 -03:00 [INF] Request finished in 1024.9548ms 304 
+2020-04-27 16:47:32.752 -03:00 [INF] Request finished in 1014.9504ms 200 application/json; charset=UTF-8
+2020-04-27 16:47:32.777 -03:00 [INF] Request starting HTTP/1.1 GET https://localhost:44306/sockjs-node/060/qzoi4yyj/websocket  
+2020-04-27 16:48:00.394 -03:00 [INF] i ´¢ówdm´¢ú: Compiling...
+
+2020-04-27 16:48:00.902 -03:00 [INF] Date: 2020-04-27T19:48:00.900Z - Hash: 9577ae46f8195afabb79
+6 unchanged chunks
+
+Time: 245ms
+
+2020-04-27 16:48:00.918 -03:00 [INF] i ´¢ówdm´¢ú: Failed to compile.
+
+2020-04-27 16:48:00.939 -03:00 [ERR] ERROR in app/app.module.ts:22:5 - error TS1005: ',' expected.
+
+22     RouterModule.forRoot([
+       ~~~~~~~~~~~~
+
+
+2020-04-27 16:48:04.313 -03:00 [INF] i ´¢ówdm´¢ú: Compiling...
+
+2020-04-27 16:48:04.967 -03:00 [INF] Date: 2020-04-27T19:48:04.964Z - Hash: c104ba5069a2cac4eb16
+5 unchanged chunks
+chunk {main} main.js, main.js.map (main) 35.1 kB [initial] [rendered]
+Time: 359ms
+
+2020-04-27 16:48:04.980 -03:00 [INF] i ´¢ówdm´¢ú: Compiled successfully.
+
+2020-04-27 16:48:05.080 -03:00 [INF] Request starting HTTP/2.0 GET https://localhost:44306/  
+2020-04-27 16:48:06.092 -03:00 [INF] Request finished in 1012.4078ms 304 
+2020-04-27 16:48:06.167 -03:00 [INF] Request finished in 33389.7236ms 101 
+2020-04-27 16:48:06.168 -03:00 [INF] Request starting HTTP/2.0 GET https://localhost:44306/styles.css  
+2020-04-27 16:48:06.168 -03:00 [INF] Request starting HTTP/2.0 GET https://localhost:44306/main.js  
+2020-04-27 16:48:06.192 -03:00 [INF] Request starting HTTP/2.0 GET https://localhost:44306/vendor.js  
+2020-04-27 16:48:06.197 -03:00 [INF] Request starting HTTP/2.0 GET https://localhost:44306/polyfills.js  
+2020-04-27 16:48:06.203 -03:00 [INF] Request starting HTTP/2.0 GET https://localhost:44306/runtime.js  
+2020-04-27 16:48:06.260 -03:00 [INF] Request starting HTTP/2.0 GET https://localhost:44306/scripts.js  
+2020-04-27 16:48:07.294 -03:00 [INF] Request finished in 1090.1537ms 304 
+2020-04-27 16:48:07.294 -03:00 [INF] Request finished in 1126.3559ms 304 
+2020-04-27 16:48:07.294 -03:00 [INF] Request finished in 1097.5852ms 304 
+2020-04-27 16:48:07.294 -03:00 [INF] Request finished in 1126.333ms 200 application/javascript; charset=UTF-8
+2020-04-27 16:48:07.338 -03:00 [INF] Request finished in 1078.0926ms 304 
+2020-04-27 16:48:07.338 -03:00 [INF] Request finished in 1146.3622ms 304 
+2020-04-27 16:48:07.339 -03:00 [INF] Request starting HTTP/2.0 GET https://localhost:44306/runtime.js.map  
+2020-04-27 16:48:07.366 -03:00 [INF] Request starting HTTP/2.0 GET https://localhost:44306/styles.css.map  
+2020-04-27 16:48:07.391 -03:00 [INF] Request starting HTTP/2.0 GET https://localhost:44306/main.js.map  
+2020-04-27 16:48:07.397 -03:00 [INF] Request starting HTTP/2.0 GET https://localhost:44306/polyfills.js.map  
+2020-04-27 16:48:07.511 -03:00 [INF] Request starting HTTP/2.0 GET https://localhost:44306/scripts.js.map  
+2020-04-27 16:48:07.760 -03:00 [INF] Request starting HTTP/2.0 GET https://localhost:44306/vendor.js.map  
+2020-04-27 16:48:08.080 -03:00 [INF] Request starting HTTP/2.0 GET https://localhost:44306/sockjs-node/info?t=1588016888066  
+2020-04-27 16:48:08.293 -03:00 [INF] i ´¢ówdm´¢ú: Compiling...
+
+2020-04-27 16:48:08.356 -03:00 [INF] i ´¢ówdm´¢ú: wait until bundle finished: /runtime.js.map
+
+2020-04-27 16:48:08.375 -03:00 [INF] i ´¢ówdm´¢ú: wait until bundle finished: /styles.css.map
+
+2020-04-27 16:48:08.406 -03:00 [INF] i ´¢ówdm´¢ú: wait until bundle finished: /main.js.map
+
+2020-04-27 16:48:08.407 -03:00 [INF] i ´¢ówdm´¢ú: wait until bundle finished: /polyfills.js.map
+
+2020-04-27 16:48:08.768 -03:00 [INF] i ´¢ówdm´¢ú: wait until bundle finished: /scripts.js.map
+
+2020-04-27 16:48:08.889 -03:00 [INF] Date: 2020-04-27T19:48:08.887Z - Hash: 893adc3f97be04473554
+5 unchanged chunks
+chunk {main} main.js, main.js.map (main) 35.1 kB [initial] [rendered]
+Time: 294ms
+
+2020-04-27 16:48:08.904 -03:00 [INF] i ´¢ówdm´¢ú: Compiled successfully.
+
+2020-04-27 16:48:08.905 -03:00 [INF] Request finished in 1566.2864ms 304 
+2020-04-27 16:48:08.907 -03:00 [INF] Request finished in 1540.2228ms 304 
+2020-04-27 16:48:08.908 -03:00 [INF] Request finished in 1516.5817ms 200 application/json; charset=UTF-8
+2020-04-27 16:48:08.909 -03:00 [INF] Request finished in 1511.8793ms 304 
+2020-04-27 16:48:08.914 -03:00 [INF] Request finished in 1402.4875ms 304 
+2020-04-27 16:48:08.940 -03:00 [INF] Request finished in 1180.2599ms 304 
+2020-04-27 16:48:09.393 -03:00 [INF] Request finished in 1312.373ms 200 application/json; charset=UTF-8
+2020-04-27 16:48:09.499 -03:00 [INF] Request starting HTTP/1.1 GET https://localhost:44306/sockjs-node/909/z5lchmai/websocket  
+2020-04-27 16:48:10.845 -03:00 [INF] i ´¢ówdm´¢ú: Compiling...
+
+2020-04-27 16:48:11.551 -03:00 [INF] Date: 2020-04-27T19:48:11.519Z - Hash: 893adc3f97be04473554
+6 unchanged chunks
+
+Time: 289ms
+
+2020-04-27 16:48:11.680 -03:00 [INF] Request starting HTTP/2.0 GET https://localhost:44306/  
+2020-04-27 16:48:12.705 -03:00 [INF] Request finished in 1024.5451ms 304 
+2020-04-27 16:48:12.761 -03:00 [INF] Request starting HTTP/2.0 GET https://localhost:44306/styles.css  
+2020-04-27 16:48:12.764 -03:00 [INF] Request starting HTTP/2.0 GET https://localhost:44306/runtime.js  
+2020-04-27 16:48:12.764 -03:00 [INF] Request starting HTTP/2.0 GET https://localhost:44306/polyfills.js  
+2020-04-27 16:48:12.768 -03:00 [INF] Request starting HTTP/2.0 GET https://localhost:44306/vendor.js  
+2020-04-27 16:48:12.770 -03:00 [INF] Request starting HTTP/2.0 GET https://localhost:44306/main.js  
+2020-04-27 16:48:12.797 -03:00 [INF] Request finished in 3298.1319ms 101 
+2020-04-27 16:48:12.838 -03:00 [INF] Request starting HTTP/2.0 GET https://localhost:44306/scripts.js  
+2020-04-27 16:48:13.786 -03:00 [INF] Request finished in 1024.5468ms 304 
+2020-04-27 16:48:13.806 -03:00 [INF] Request finished in 1038.3727ms 304 
+2020-04-27 16:48:13.809 -03:00 [INF] Request finished in 1044.8083ms 304 
+2020-04-27 16:48:13.811 -03:00 [INF] Request finished in 1047.5105ms 304 
+2020-04-27 16:48:13.814 -03:00 [INF] Request finished in 1044.827ms 200 application/javascript; charset=UTF-8
+2020-04-27 16:48:13.854 -03:00 [INF] Request finished in 1016.2733ms 304 
+2020-04-27 16:48:13.911 -03:00 [INF] Request starting HTTP/2.0 GET https://localhost:44306/styles.css.map  
+2020-04-27 16:48:13.933 -03:00 [INF] Request starting HTTP/2.0 GET https://localhost:44306/runtime.js.map  
+2020-04-27 16:48:13.941 -03:00 [INF] Request starting HTTP/2.0 GET https://localhost:44306/main.js.map  
+2020-04-27 16:48:13.945 -03:00 [INF] Request starting HTTP/2.0 GET https://localhost:44306/polyfills.js.map  
+2020-04-27 16:48:14.031 -03:00 [INF] Request starting HTTP/2.0 GET https://localhost:44306/scripts.js.map  
+2020-04-27 16:48:14.239 -03:00 [INF] Request starting HTTP/2.0 GET https://localhost:44306/vendor.js.map  
+2020-04-27 16:48:14.509 -03:00 [INF] Request starting HTTP/2.0 GET https://localhost:44306/sockjs-node/info?t=1588016894500  
+2020-04-27 16:48:14.926 -03:00 [INF] Request finished in 1014.4831ms 304 
+2020-04-27 16:48:14.948 -03:00 [INF] Request finished in 1014.9554ms 304 
+2020-04-27 16:48:14.950 -03:00 [INF] Request finished in 1008.6575ms 304 
+2020-04-27 16:48:14.961 -03:00 [INF] Request finished in 1015.635ms 304 
+2020-04-27 16:48:15.040 -03:00 [INF] Request finished in 1009.7179ms 304 
+2020-04-27 16:48:15.256 -03:00 [INF] Request finished in 1017.0201ms 304 
+2020-04-27 16:48:15.525 -03:00 [INF] Request finished in 1015.9989ms 200 application/json; charset=UTF-8
+2020-04-27 16:48:15.536 -03:00 [INF] Request starting HTTP/1.1 GET https://localhost:44306/sockjs-node/662/ytpeeqpx/websocket  
+2020-04-27 16:51:16.482 -03:00 [INF] i ´¢ówdm´¢ú: Compiled successfully.
+i ´¢ówdm´¢ú: Compiling...
+
+2020-04-27 16:51:16.999 -03:00 [INF] Date: 2020-04-27T19:51:16.997Z - Hash: 893adc3f97be04473554
+6 unchanged chunks
+
+Time: 199ms
+
+2020-04-27 16:51:17.016 -03:00 [INF] i ´¢ówdm´¢ú: Compiled successfully.
+
+2020-04-27 16:51:17.049 -03:00 [INF] Request starting HTTP/2.0 GET https://localhost:44306/  
+2020-04-27 16:51:18.077 -03:00 [INF] Request finished in 1028.4731ms 304 
+2020-04-27 16:51:18.136 -03:00 [INF] Request finished in 182600.2599ms 101 
+2020-04-27 16:51:18.139 -03:00 [INF] Request starting HTTP/2.0 GET https://localhost:44306/runtime.js  
+2020-04-27 16:51:18.139 -03:00 [INF] Request starting HTTP/2.0 GET https://localhost:44306/styles.css  
+2020-04-27 16:51:18.140 -03:00 [INF] Request starting HTTP/2.0 GET https://localhost:44306/polyfills.js  
+2020-04-27 16:51:18.142 -03:00 [INF] Request starting HTTP/2.0 GET https://localhost:44306/vendor.js  
+2020-04-27 16:51:18.148 -03:00 [INF] Request starting HTTP/2.0 GET https://localhost:44306/main.js  
+2020-04-27 16:51:18.191 -03:00 [INF] Request starting HTTP/2.0 GET https://localhost:44306/scripts.js  
+2020-04-27 16:51:19.163 -03:00 [INF] Request finished in 1023.8452ms 304 
+2020-04-27 16:51:19.166 -03:00 [INF] Request finished in 1026.1696ms 304 
+2020-04-27 16:51:19.167 -03:00 [INF] Request finished in 1020.0265ms 304 
+2020-04-27 16:51:19.182 -03:00 [INF] Request finished in 1040.1101ms 304 
+2020-04-27 16:51:19.184 -03:00 [INF] Request finished in 1044.3208ms 304 
+2020-04-27 16:51:19.227 -03:00 [INF] Request finished in 1035.7519ms 304 
+2020-04-27 16:51:19.724 -03:00 [INF] Request starting HTTP/2.0 GET https://localhost:44306/sockjs-node/info?t=1588017079715  
+2020-04-27 16:51:20.731 -03:00 [INF] Request finished in 1007.2736ms 200 application/json; charset=UTF-8
+2020-04-27 16:51:20.741 -03:00 [INF] Request starting HTTP/1.1 GET https://localhost:44306/sockjs-node/032/1kaxe5y5/websocket  
+2020-04-27 17:38:53.702 -03:00 [INF] i ´¢ówdm´¢ú: Compiling...
+
+2020-04-27 17:38:54.551 -03:00 [INF] Date: 2020-04-27T20:38:54.549Z - Hash: fc2aab345de1a6bb456e
+5 unchanged chunks
+chunk {main} main.js, main.js.map (main) 35.1 kB [initial] [rendered]
+Time: 441ms
+
+2020-04-27 17:38:54.597 -03:00 [INF] i ´¢ówdm´¢ú: Compiled successfully.
+
+2020-04-27 17:38:54.713 -03:00 [INF] Request starting HTTP/2.0 GET https://localhost:44306/  
+2020-04-27 17:38:55.918 -03:00 [INF] Request finished in 1205.2708ms 304 
+2020-04-27 17:38:55.953 -03:00 [INF] Request finished in 2855211.9323ms 101 
+2020-04-27 17:38:55.988 -03:00 [INF] Request starting HTTP/2.0 GET https://localhost:44306/main.js  
+2020-04-27 17:38:55.988 -03:00 [INF] Request starting HTTP/2.0 GET https://localhost:44306/vendor.js  
+2020-04-27 17:38:55.993 -03:00 [INF] Request starting HTTP/2.0 GET https://localhost:44306/styles.css  
+2020-04-27 17:38:55.993 -03:00 [INF] Request starting HTTP/2.0 GET https://localhost:44306/runtime.js  
+2020-04-27 17:38:56.002 -03:00 [INF] Request starting HTTP/2.0 GET https://localhost:44306/polyfills.js  
+2020-04-27 17:38:56.105 -03:00 [INF] Request starting HTTP/2.0 GET https://localhost:44306/scripts.js  
+2020-04-27 17:38:57.025 -03:00 [INF] Request finished in 1032.2641ms 304 
+2020-04-27 17:38:57.045 -03:00 [INF] Request finished in 1056.271ms 200 application/javascript; charset=UTF-8
+2020-04-27 17:38:57.045 -03:00 [INF] Request finished in 1042.5753ms 304 
+2020-04-27 17:38:57.045 -03:00 [INF] Request finished in 1051.7173ms 304 
+2020-04-27 17:38:57.067 -03:00 [INF] Request finished in 1079.0178ms 304 
+2020-04-27 17:38:57.120 -03:00 [INF] Request finished in 1014.7699ms 304 
+2020-04-27 17:38:57.677 -03:00 [INF] Request starting HTTP/2.0 GET https://localhost:44306/sockjs-node/info?t=1588019937669  
+2020-04-27 17:38:58.688 -03:00 [INF] Request finished in 1010.8605ms 200 application/json; charset=UTF-8
+2020-04-27 17:38:58.714 -03:00 [INF] Request starting HTTP/1.1 GET https://localhost:44306/sockjs-node/352/zr0jddum/websocket  
+2020-04-27 17:39:18.859 -03:00 [INF] Request starting HTTP/2.0 GET https://localhost:44306/  
+2020-04-27 17:39:19.903 -03:00 [INF] Request finished in 1044.7361ms 304 
+2020-04-27 17:39:19.957 -03:00 [INF] Request starting HTTP/2.0 GET https://localhost:44306/styles.css  
+2020-04-27 17:39:19.959 -03:00 [INF] Request starting HTTP/2.0 GET https://localhost:44306/runtime.js  
+2020-04-27 17:39:19.962 -03:00 [INF] Request starting HTTP/2.0 GET https://localhost:44306/polyfills.js  
+2020-04-27 17:39:19.966 -03:00 [INF] Request starting HTTP/2.0 GET https://localhost:44306/vendor.js  
+2020-04-27 17:39:19.966 -03:00 [INF] Request starting HTTP/2.0 GET https://localhost:44306/main.js  
+2020-04-27 17:39:19.967 -03:00 [INF] Request finished in 21252.3238ms 101 
+2020-04-27 17:39:20.009 -03:00 [INF] Request starting HTTP/2.0 GET https://localhost:44306/scripts.js  
+2020-04-27 17:39:20.987 -03:00 [INF] Request finished in 1030.3697ms 304 
+2020-04-27 17:39:20.987 -03:00 [INF] Request finished in 1020.9227ms 304 
+2020-04-27 17:39:20.988 -03:00 [INF] Request finished in 1028.2727ms 304 
+2020-04-27 17:39:21.014 -03:00 [INF] Request finished in 1052.5716ms 304 
+2020-04-27 17:39:21.021 -03:00 [INF] Request finished in 1055.9019ms 304 
+2020-04-27 17:39:21.025 -03:00 [INF] Request finished in 1016.5757ms 304 
+2020-04-27 17:39:22.035 -03:00 [INF] Request starting HTTP/2.0 GET https://localhost:44306/sockjs-node/info?t=1588019962007  
+2020-04-27 17:39:22.038 -03:00 [INF] Request starting HTTP/2.0 GET https://localhost:44306/favicon.ico  
+2020-04-27 17:39:22.042 -03:00 [INF] Sending file. Request path: '/favicon.ico'. Physical path: 'D:\Projetos\BrainInBase\BrainInBase\BrainInBase.Web\wwwroot\favicon.ico'
+2020-04-27 17:39:22.042 -03:00 [INF] Request finished in 4.3423ms 200 image/x-icon
+2020-04-27 17:39:22.508 -03:00 [INF] Request starting HTTP/2.0 GET https://localhost:44306/styles.css  
+2020-04-27 17:39:22.594 -03:00 [INF] Request starting HTTP/2.0 GET https://localhost:44306/runtime.js.map  
+2020-04-27 17:39:22.601 -03:00 [INF] Request starting HTTP/2.0 GET https://localhost:44306/main.js.map  
+2020-04-27 17:39:22.602 -03:00 [INF] Request starting HTTP/2.0 GET https://localhost:44306/polyfills.js.map  
+2020-04-27 17:39:22.605 -03:00 [INF] Request starting HTTP/2.0 GET https://localhost:44306/vendor.js.map  
+2020-04-27 17:39:22.602 -03:00 [INF] Request starting HTTP/2.0 GET https://localhost:44306/scripts.js.map  
+2020-04-27 17:39:23.043 -03:00 [INF] Request finished in 1008.0135ms 200 application/json; charset=UTF-8
+2020-04-27 17:39:23.058 -03:00 [INF] Request starting HTTP/1.1 GET https://localhost:44306/sockjs-node/336/i20hnn2c/websocket  
+2020-04-27 17:39:23.522 -03:00 [INF] Request finished in 1013.812ms 304 
+2020-04-27 17:39:23.559 -03:00 [INF] Request starting HTTP/2.0 GET https://localhost:44306/styles.css.map  
+2020-04-27 17:39:23.605 -03:00 [INF] Request finished in 1011.7835ms 304 
+2020-04-27 17:39:23.634 -03:00 [INF] Request finished in 1032.3048ms 304 
+2020-04-27 17:39:23.686 -03:00 [INF] Request finished in 1085.0371ms 200 application/json; charset=UTF-8
+2020-04-27 17:39:23.686 -03:00 [INF] Request finished in 1080.9807ms 304 
+2020-04-27 17:39:23.687 -03:00 [INF] Request finished in 1085.2092ms 304 
+2020-04-27 17:39:24.581 -03:00 [INF] Request finished in 1022.4595ms 304 
+2020-04-27 17:40:53.915 -03:00 [INF] i ´¢ówdm´¢ú: Compiling...
+
+2020-04-27 17:40:54.393 -03:00 [INF] Date: 2020-04-27T20:40:54.392Z - Hash: 893adc3f97be04473554
+5 unchanged chunks
+chunk {main} main.js, main.js.map (main) 35.1 kB [initial] [rendered]
+Time: 211ms
+
+2020-04-27 17:40:54.416 -03:00 [INF] i ´¢ówdm´¢ú: Compiled successfully.
+
+2020-04-27 17:40:54.438 -03:00 [INF] Request starting HTTP/2.0 GET https://localhost:44306/  
+2020-04-27 17:40:55.451 -03:00 [INF] Request finished in 1013.251ms 304 
+2020-04-27 17:40:55.509 -03:00 [INF] Request starting HTTP/2.0 GET https://localhost:44306/main.js  
+2020-04-27 17:40:55.509 -03:00 [INF] Request starting HTTP/2.0 GET https://localhost:44306/styles.css  
+2020-04-27 17:40:55.513 -03:00 [INF] Request starting HTTP/2.0 GET https://localhost:44306/runtime.js  
+2020-04-27 17:40:55.532 -03:00 [INF] Request starting HTTP/2.0 GET https://localhost:44306/polyfills.js  
+2020-04-27 17:40:55.532 -03:00 [INF] Request starting HTTP/2.0 GET https://localhost:44306/vendor.js  
+2020-04-27 17:40:55.572 -03:00 [INF] Request starting HTTP/2.0 GET https://localhost:44306/scripts.js  
+2020-04-27 17:40:56.751 -03:00 [INF] Request finished in 1238.5017ms 304 
+2020-04-27 17:40:56.765 -03:00 [INF] Request finished in 1233.6321ms 304 
+2020-04-27 17:40:56.766 -03:00 [INF] Request finished in 1256.3994ms 304 
+2020-04-27 17:40:55.566 -03:00 [ERR] An unhandled exception has occurred while executing the request.
+System.Net.WebSockets.WebSocketException (0x80004005): The WebSocket is in an invalid state ('Aborted') for this operation. Valid states are: 'Open, CloseReceived'
+   at System.Net.WebSockets.WebSocketValidate.ThrowIfInvalidState(WebSocketState currentState, Boolean isDisposed, WebSocketState[] validStates)
+   at System.Net.WebSockets.ManagedWebSocket.CloseOutputAsyncCore(WebSocketCloseStatus closeStatus, String statusDescription, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.SpaServices.Extensions.Proxy.SpaProxy.PumpWebSocket(WebSocket source, WebSocket destination, Int32 bufferSize, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.SpaServices.Extensions.Proxy.SpaProxy.AcceptProxyWebSocketRequest(HttpContext context, Uri destinationUri, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.SpaServices.Extensions.Proxy.SpaProxy.PerformProxyRequest(HttpContext context, HttpClient httpClient, Task`1 baseUriTask, CancellationToken applicationStoppingToken, Boolean proxy404s)
+   at Microsoft.AspNetCore.Builder.SpaProxyingExtensions.<>c__DisplayClass2_0.<<UseProxyToSpaDevelopmentServer>b__0>d.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2020-04-27 17:40:56.766 -03:00 [INF] Request finished in 1234.6666ms 304 
+2020-04-27 17:40:56.768 -03:00 [WRN] The response has already started, the error page middleware will not be executed.
+2020-04-27 17:40:56.850 -03:00 [INF] Request finished in 1340.414ms 200 application/javascript; charset=UTF-8
+2020-04-27 17:40:56.850 -03:00 [INF] Request finished in 1278.8552ms 304 
+2020-04-27 17:40:56.846 -03:00 [ERR] Connection ID "17654110540902957167", Request ID "80000070-0000-f500-b63f-84710c7967bb": An unhandled exception was thrown by the application.
+System.Net.WebSockets.WebSocketException (0x80004005): The WebSocket is in an invalid state ('Aborted') for this operation. Valid states are: 'Open, CloseReceived'
+   at System.Net.WebSockets.WebSocketValidate.ThrowIfInvalidState(WebSocketState currentState, Boolean isDisposed, WebSocketState[] validStates)
+   at System.Net.WebSockets.ManagedWebSocket.CloseOutputAsyncCore(WebSocketCloseStatus closeStatus, String statusDescription, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.SpaServices.Extensions.Proxy.SpaProxy.PumpWebSocket(WebSocket source, WebSocket destination, Int32 bufferSize, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.SpaServices.Extensions.Proxy.SpaProxy.AcceptProxyWebSocketRequest(HttpContext context, Uri destinationUri, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.SpaServices.Extensions.Proxy.SpaProxy.PerformProxyRequest(HttpContext context, HttpClient httpClient, Task`1 baseUriTask, CancellationToken applicationStoppingToken, Boolean proxy404s)
+   at Microsoft.AspNetCore.Builder.SpaProxyingExtensions.<>c__DisplayClass2_0.<<UseProxyToSpaDevelopmentServer>b__0>d.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Server.IIS.Core.IISHttpContextOfT`1.ProcessRequestAsync()
+2020-04-27 17:40:56.864 -03:00 [INF] Request finished in 93806.5428ms 101 
+2020-04-27 17:40:57.432 -03:00 [INF] Request starting HTTP/2.0 GET https://localhost:44306/sockjs-node/info?t=1588020057400  
+2020-04-27 17:40:58.442 -03:00 [INF] Request finished in 1009.2596ms 200 application/json; charset=UTF-8
+2020-04-27 17:40:58.451 -03:00 [INF] Request starting HTTP/1.1 GET https://localhost:44306/sockjs-node/970/woql0q33/websocket  
