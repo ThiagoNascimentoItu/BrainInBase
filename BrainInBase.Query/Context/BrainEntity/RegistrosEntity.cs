@@ -5,7 +5,7 @@ using System.ComponentModel.DataAnnotations.Schema;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace BrainInBaseApi.Context.BrainEntity
+namespace BrainInBase.Query.Context.BrainEntity
 {
     public class RegistrosEntity
     {

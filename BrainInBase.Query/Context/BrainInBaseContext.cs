@@ -1,8 +1,8 @@
-﻿using BrainInBaseApi.Context.BrainEntity;
+﻿using BrainInBase.Query.Context.BrainEntity;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Metadata;
 
-namespace BrainInBaseApi.Context
+namespace BrainInBase.Query
 {
     public class BrainInBaseContext : DbContext
     {
@@ -20,6 +20,7 @@ namespace BrainInBaseApi.Context
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
             base.OnModelCreating(modelBuilder);
+
             modelBuilder.Entity<UsuariosEntity>().ToTable("Usuarios").
                 Property(u => u.Codigo).Metadata.SetAfterSaveBehavior(PropertySaveBehavior.Ignore);
             modelBuilder.Entity<RegistrosEntity>().ToTable("Registros")

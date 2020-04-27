@@ -4,8 +4,6 @@ using System.Linq;
 using System.Threading.Tasks;
 using BrainInBase.Contracts.Models.Registro;
 using BrainInBase.Query.Registro.Requests;
-using BrainInBaseApi.Context;
-using BrainInBaseApi.Context.BrainEntity;
 using MediatR;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
@@ -17,14 +15,11 @@ namespace BrainInBaseApi.Controllers
     public class RegistroController : ControllerBase
     {
         private readonly ILogger<RegistroController> _logger;
-        private readonly BrainInBaseContext _brainInBaseContext;
         private readonly IMediator _mediator;
 
-        public RegistroController(ILogger<RegistroController> logger, 
-            BrainInBaseContext brainInBaseContext, IMediator mediator)
+        public RegistroController(ILogger<RegistroController> logger,IMediator mediator)
         {
             _logger = logger ?? throw new ArgumentNullException(nameof(logger));
-            _brainInBaseContext = brainInBaseContext ?? throw new ArgumentNullException(nameof(brainInBaseContext));
             _mediator = mediator ?? throw new ArgumentNullException(nameof(mediator));
         }
 

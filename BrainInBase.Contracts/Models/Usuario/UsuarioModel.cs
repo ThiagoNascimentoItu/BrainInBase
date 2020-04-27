@@ -6,6 +6,7 @@ namespace BrainInBase.Contracts.Models.Usuario
 {
     public class UsuarioModel
     {
+        public Guid Id { get; set; }
         public string Codigo { get; set; }
         public string Nome { get; set; }
         public string Sobrenome { get; set; }

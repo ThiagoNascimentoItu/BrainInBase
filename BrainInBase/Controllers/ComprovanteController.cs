@@ -4,8 +4,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using BrainInBase.Contracts.Models.Comprovante;
 using BrainInBase.Query.Comprovante.Requests;
-using BrainInBaseApi.Context;
-using BrainInBaseApi.Context.BrainEntity;
+
 using MediatR;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
@@ -17,14 +16,12 @@ namespace BrainInBaseApi.Controllers
     public class ComprovanteController : ControllerBase
     {
         private readonly ILogger<ComprovanteController> _logger;
-        private readonly BrainInBaseContext _brainInBaseContext;
         private readonly IMediator _mediator;
 
-        public ComprovanteController(ILogger<ComprovanteController> logger, BrainInBaseContext brainInBaseContext,
+        public ComprovanteController(ILogger<ComprovanteController> logger,
             IMediator mediator)
         {
             _logger = logger ?? throw new ArgumentNullException(nameof(logger));
-            _brainInBaseContext = brainInBaseContext ?? throw new ArgumentNullException(nameof(brainInBaseContext));
             _mediator = mediator ?? throw new ArgumentNullException(nameof(mediator));
         }
 

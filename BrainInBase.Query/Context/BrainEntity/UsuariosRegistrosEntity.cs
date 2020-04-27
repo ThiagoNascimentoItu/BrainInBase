@@ -4,22 +4,12 @@ using System.ComponentModel.DataAnnotations;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace BrainInBaseApi.Context.BrainEntity
+namespace BrainInBase.Query.Context.BrainEntity
 {
-    public class EnderecoEntity
+    public class UsuariosRegistrosEntity
     {
         [Key]
-        public string Id { get; set; }
-        [Required(ErrorMessage = "A UF do endereço é obrigatório")]
-        public string Uf { get; set; }
-        [Required(ErrorMessage = "A cidade é obrigatório")]
-        public string Cidade { get; set; }
-        [Required(ErrorMessage = "O estado é obrigatório")]
-        public string Estado { get; set; }
-        [Required(ErrorMessage = "O tipo de lougradouro é obrigatório")]
-        public string TipoLougradouro { get; set; }
-        [Required(ErrorMessage = "O cecp é obrigatório")]
-        public string Cep { get; set; }
+        public Guid Id { get; set; }
         [Required(ErrorMessage = "O código padrão de usuário é obrigatório")]
         public int UsuariosPadrao { get; set; }
         [Required(ErrorMessage = "O código modificador usuáro é obrigatórios")]
@@ -28,6 +18,15 @@ namespace BrainInBaseApi.Context.BrainEntity
         public int UsuariosCodigo { get; set; }
         [Required(ErrorMessage = "O código identificador do usuário é obrigatório")]
         public string UsuariosIdentificador { get; set; }
+        [Required(ErrorMessage = "O código padrão do registro é obrigatório")]
+        public int RegistrosPadrao { get; set; }
+        [Required(ErrorMessage = "O código modificador é obrigatórios")]
+        public int RegistrosModificador { get; set; }
+        [Required(ErrorMessage = "O código do registro é obrigatório")]
+        public int RegistrosCodigo { get; set; }
+        [Required(ErrorMessage = "O código identificador do registro é obrigatório")]
+        public string RegistrosIdentificador { get; set; }
+
 
     }
 }

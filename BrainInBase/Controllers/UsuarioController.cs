@@ -7,8 +7,6 @@ using System.Text;
 using System.Threading.Tasks;
 using BrainInBase.Contracts.Models.Usuario;
 using BrainInBase.Query.Usuario.Requests;
-using BrainInBaseApi.Context;
-using BrainInBaseApi.Context.BrainEntity;
 using MediatR;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
@@ -20,13 +18,11 @@ namespace BrainInBaseApi.Controllers
     public class UsuarioController : ControllerBase
     {
         private readonly ILogger<UsuarioController> _logger;
-        private readonly BrainInBaseContext _brainInBaseContext;
         private readonly IMediator _mediator;
 
-        public UsuarioController(ILogger<UsuarioController> logger, BrainInBaseContext brainInBaseContext, IMediator mediator)
+        public UsuarioController(ILogger<UsuarioController> logger,IMediator mediator)
         {
             _logger = logger ?? throw new ArgumentNullException(nameof(logger));
-            _brainInBaseContext = brainInBaseContext ?? throw new ArgumentNullException(nameof(brainInBaseContext));
             _mediator = mediator ?? throw new ArgumentNullException(nameof(mediator));
         }
 
