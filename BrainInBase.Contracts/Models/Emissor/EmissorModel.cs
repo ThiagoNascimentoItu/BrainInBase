@@ -6,8 +6,9 @@ namespace BrainInBase.Contracts.Models.Emissor
 {
     public class EmissorModel
     {
-        public string Id { get; set; }
-        public string Codigo { get; set; }
+        public Guid Id { get; set; }
+        public int Codigo { get; set; }
+        public string Identificador { get; set; }
         public string NomeFantasia { get; set; }
         public string RazaoSocial { get; set; }
         public string CpfCpnj { get; set; }

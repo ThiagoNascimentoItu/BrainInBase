@@ -25,18 +25,16 @@ namespace BrainInBaseApi.Controllers
         }
 
         [HttpPost]
-        public async Task<IActionResult> GetEmissor([FromQuery] string emissorId)
-        {
-            var id = emissorId.Split("-");
+        public async Task<IActionResult> GetEmissor([FromQuery] Guid emissorId)
+        {            
 
-            var emissor = _brainInBaseContext.Emissor.Where(u => u.Padrao == Convert.ToInt32(id[0])
-                                                              && u.Modificador == Convert.ToInt32(id[1])
-                                                              && u.Codigo == Convert.ToInt32(id[2])
-                                                              && u.Identificador == id[3]);
+            var emissor = _brainInBaseContext.Emissor.Where(u => u.Id == emissorId);
 
             var result = emissor.Select(e => new EmissorModel
             {
-                Codigo = e.Padrao + "-" + e.Modificador + "-" + e.Codigo + "-" + e.Identificador,
+                Id = e.Id,
+                Identificador = e.Identificador,
+                Codigo = e.Codigo,
                 Ativo = e.Ativo,
                 CpfCpnj = e.CpfCpnj,
                 RazaoSocial = e.RazaoSocial,
@@ -55,7 +53,9 @@ namespace BrainInBaseApi.Controllers
 
             var result = emissor.Select(e => new EmissorModel
             {
-                Codigo = e.Padrao + "-" + e.Modificador + "-" + e.Codigo + "-" + e.Identificador,
+                Id = e.Id,
+                Identificador = e.Identificador,
+                Codigo = e.Codigo,
                 Ativo = e.Ativo,
                 CpfCpnj = e.CpfCpnj,
                 RazaoSocial = e.RazaoSocial,
@@ -69,16 +69,12 @@ namespace BrainInBaseApi.Controllers
         [HttpPost("update")]
         public async Task<IActionResult> PutEmissor([FromQuery] EmissorModel model)
         {
-            var id = model.Codigo.Split("-");
-
-            var emissor = _brainInBaseContext.Emissor.Where(u => u.Padrao == Convert.ToInt32(id[0])
-                                                              && u.Modificador == Convert.ToInt32(id[1])
-                                                              && u.Codigo == Convert.ToInt32(id[2])
-                                                              && u.Identificador == id[3]);
+            var emissor = _brainInBaseContext.Emissor.Where(u => u.Id == model.Id);
             foreach (EmissorEntity update in emissor)
             {
                 update.Ativo = model.Ativo;
                 update.CpfCpnj = model.CpfCpnj;
+                update.Identificador = model.Identificador;
                 update.NomeFantasia = model.NomeFantasia;
                 update.RazaoSocial = model.RazaoSocial;
                 update.Url = model.Url;
@@ -93,16 +89,12 @@ namespace BrainInBaseApi.Controllers
         [HttpPost("adicionar")]
         public async Task<IActionResult> PostEmissor([FromBody] EmissorModel model)
         {
-            var id = model.Codigo.Split("-");
 
             var result = new EmissorEntity
             {
                Ativo = model.Ativo,
-               CpfCpnj = model.CpfCpnj,
-               Codigo = Convert.ToInt32(id[2]),
-               Identificador = id[3],
-               Modificador = Convert.ToInt32(id[1]),
-               Padrao = Convert.ToInt32(id[0]),
+               CpfCpnj = model.CpfCpnj,               
+               Identificador = model.Identificador,               
                NomeFantasia = model.NomeFantasia,
                RazaoSocial = model.RazaoSocial,
                Url = model.Url

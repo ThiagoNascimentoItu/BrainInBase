@@ -10,11 +10,7 @@ namespace BrainInBaseApi.Context.BrainEntity
     public class EmissorEntity
     {
         [Key]
-        public string Id { get; set; }
-        [Required(ErrorMessage = "O código padrão do emissor é obrigatório")]
-        public int Padrao { get; set; }
-        [Required(ErrorMessage = "O código modificador o emissor é obrigatórios")]
-        public int Modificador { get; set; }
+        public Guid Id { get; set; }
         [DatabaseGeneratedAttribute(DatabaseGeneratedOption.Identity)]
         public int Codigo { get; set; }
         [Required(ErrorMessage = "O código identificador do emissor é obrigatório")]

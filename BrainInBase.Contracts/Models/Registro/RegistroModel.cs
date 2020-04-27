@@ -6,8 +6,9 @@ namespace BrainInBase.Contracts.Models.Registro
 {
     public class RegistroModel
     {
-        public string Id { get; set; }
-        public string Codigo { get; set; }
+        public Guid Id { get; set; }
+        public int Codigo { get; set; }
+        public string Identificador { get; set; }
         public string Descricao { get; set; }
         public decimal CargaHoraria { get; set; }
         public string ChaveValidacao { get; set; }

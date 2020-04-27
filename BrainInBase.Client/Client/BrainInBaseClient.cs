@@ -21,9 +21,9 @@ namespace BrainInBase.Client.Client
         }
 
         #region Usuarios
-        public async Task<UsuarioResult> GetUsuarioAsync(string usuarioId)
+        public async Task<UsuarioResult> GetUsuarioAsync(Guid usuarioId)
         {
-            return await _httpClientFactory.PostAsync<UsuarioResult>("api/usuario", usuarioId);
+            return await _httpClientFactory.GetAsync<UsuarioResult>("api/usuario", usuarioId);
         }
 
         public async Task<UsuarioResult> FindUsuariosAsync(string termo)

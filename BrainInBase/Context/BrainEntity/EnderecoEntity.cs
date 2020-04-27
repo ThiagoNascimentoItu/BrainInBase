@@ -20,10 +20,6 @@ namespace BrainInBaseApi.Context.BrainEntity
         public string TipoLougradouro { get; set; }
         [Required(ErrorMessage = "O cecp é obrigatório")]
         public string Cep { get; set; }
-        [Required(ErrorMessage = "O código padrão de usuário é obrigatório")]
-        public int UsuariosPadrao { get; set; }
-        [Required(ErrorMessage = "O código modificador usuáro é obrigatórios")]
-        public int UsuariosModificador { get; set; }
         [Required(ErrorMessage = "O código do usuáro é obrigatorio")]
         public int UsuariosCodigo { get; set; }
         [Required(ErrorMessage = "O código identificador do usuário é obrigatório")]

@@ -15,6 +15,15 @@ namespace BrainInBase.Client.Extension
             response.EnsureSuccessStatusCode();
 
             return await response.Content.ReadAsAsync<TResult>();
-        }        
+        }
+
+        public static async Task<TResult> GetAsync<TResult>(this IHttpClientFactory httpFactory, string url, object body)
+        {
+            var httpClient = httpFactory.CreateClient(Constants.HttpClientName);
+            var response = await httpClient.GetAsync(url);
+            response.EnsureSuccessStatusCode();
+
+            return await response.Content.ReadAsAsync<TResult>();
+        }
     }
 }

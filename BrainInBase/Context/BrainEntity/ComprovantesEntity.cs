@@ -11,10 +11,6 @@ namespace BrainInBaseApi.Context.BrainEntity
     {
         [Key]
         public Guid Id { get; set; }
-        [Required(ErrorMessage = "O código padrão de usuário é obrigatório")]
-        public int Padrao { get; set; }
-        [Required(ErrorMessage = "O código modificador é obrigatórios")]
-        public int Modificador { get; set; }
         [DatabaseGeneratedAttribute(DatabaseGeneratedOption.Identity)]
         public int Codigo { get; set; }
         [Required(ErrorMessage = "O código identificador do comprovante é obrigatório")]

@@ -27,19 +27,17 @@ namespace BrainInBaseApi.Controllers
         }
 
         [HttpGet]
-        public async Task<IActionResult> GetUsuarioByCodigo([FromQuery]string usuarioId)
-        {
-            var id = usuarioId.Split("-");
+        public async Task<IActionResult> GetUsuarioByCodigo([FromQuery]Guid usuarioId)
+        {           
 
-            var usuario = _brainInBaseContext.Usuarios.Where(u => u.Padrao == Convert.ToInt32(id[0])
-                                                              && u.Modificador == Convert.ToInt32(id[1])
-                                                              && u.Codigo == Convert.ToInt32(id[2])
-                                                              && u.Identificador == id[3]);
+            var usuario = _brainInBaseContext.Usuarios.Where(u => u.Id == usuarioId);
 
             var result = usuario.Select(r => new UsuarioModel
             {
-                Codigo = r.Padrao + "-" + r.Modificador + "-" + r.Codigo + "-" + r.Identificador,
+                Id = r.Id,
+                Codigo = r.Codigo,
                 Nome = r.Nome,
+                Identificador = r.Identificador,
                 Sobrenome = r.Sobrenome,
                 Email = r.Email,
                 DataNascimento = r.DataNascimento.Date,
@@ -58,8 +56,10 @@ namespace BrainInBaseApi.Controllers
 
             var result = usuarios.Select(r => new UsuarioModel
             {
-                Codigo = r.Padrao + "-" + r.Modificador + "-" + r.Codigo + "-" + r.Identificador,
+                Id = r.Id,
+                Codigo = r.Codigo,
                 Nome = r.Nome,
+                Identificador= r.Identificador,
                 Sobrenome = r.Sobrenome,
                 Email = r.Email,
                 DataNascimento = r.DataNascimento.Date,
@@ -72,13 +72,9 @@ namespace BrainInBaseApi.Controllers
 
         [HttpPut("update")]
         public async Task<IActionResult> PutUsuario([FromQuery] UsuarioModel model)
-        {
-            var id = model.Codigo.Split("-");
+        {           
 
-            var usuario = _brainInBaseContext.Usuarios.Where(u => u.Padrao == Convert.ToInt32(id[0])
-                                                              && u.Modificador == Convert.ToInt32(id[1])
-                                                              && u.Codigo == Convert.ToInt32(id[2])
-                                                              && u.Identificador == id[3]);
+            var usuario = _brainInBaseContext.Usuarios.Where(u => u.Id == model.Id);
 
             foreach (UsuariosEntity update in usuario)
             {
@@ -101,16 +97,12 @@ namespace BrainInBaseApi.Controllers
         public async Task<IActionResult> PostUsuario([FromBody] UsuarioModel model)
         {
 
-            var id = model.Codigo.Split("-");
-
             var result = new UsuariosEntity
             {
                 Nome = model.Nome,
                 Sobrenome = model.Sobrenome,
-                Email = model.Email,
-                Padrao = Convert.ToInt32(id[0]),
-                Modificador = Convert.ToInt32(id[1]),
-                Identificador = id[3],
+                Email = model.Email,                
+                Identificador = model.Identificador,
                 DataNascimento = model.DataNascimento,
                 Telefone = model.Telefone,
                 Ativo = model.Ativo,
