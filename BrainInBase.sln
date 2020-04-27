@@ -9,6 +9,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BrainInBase.Contracts", "Br
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BrainInBase.Client", "BrainInBase.Client\BrainInBase.Client.csproj", "{408260FD-1BDA-4227-98B6-3A3376ED4CA2}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BrainInBase.Web", "BrainInBase.Web\BrainInBase.Web.csproj", "{8DEA638E-D0E6-4858-8E6D-1633826F1875}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{408260FD-1BDA-4227-98B6-3A3376ED4CA2}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{408260FD-1BDA-4227-98B6-3A3376ED4CA2}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{408260FD-1BDA-4227-98B6-3A3376ED4CA2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8DEA638E-D0E6-4858-8E6D-1633826F1875}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8DEA638E-D0E6-4858-8E6D-1633826F1875}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8DEA638E-D0E6-4858-8E6D-1633826F1875}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8DEA638E-D0E6-4858-8E6D-1633826F1875}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
